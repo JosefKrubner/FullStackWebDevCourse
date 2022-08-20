@@ -3,7 +3,7 @@
 
 ### Odkazy
 
-[Testování pomocí hiroku](https://dashboard.heroku.com/apps/full-stack-web-dev-course)
+[Testování pomocí heroku](https://dashboard.heroku.com/apps/full-stack-web-dev-course)
 
 [MongoDB](https://cloud.mongodb.com/)
 
