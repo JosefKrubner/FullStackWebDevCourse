@@ -1,6 +1,12 @@
 # Projekt na vytvoření MVC webové aplikace
 ## Využívá javascript a node.js
 
+### Odkazy
+
+[Testování pomocí hiroku](https://dashboard.heroku.com/apps/full-stack-web-dev-course)
+
+[MongoDB](https://cloud.mongodb.com/)
+
 ### Start serveru
 
 **Pro ostrý běh serveru**
