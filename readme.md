@@ -22,7 +22,6 @@
 ### Struktura
 
 -public
-
    veřejný adresář
 
 -models
