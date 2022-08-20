@@ -58,6 +58,8 @@ Do *.gitignore* dát *.env* a složku *node_modules*
    - *soubory vkládané do šablon*
    - **layouts**
       - šablonové soubory
+   - **partials**
+      - fragmenty, includované do šablon
 
    
 
