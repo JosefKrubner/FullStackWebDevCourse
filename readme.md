@@ -22,16 +22,16 @@
 ### Struktura
 
 - **public**
-   - veřejný adresář
+   - *veřejný adresář*
 
 - **models**
-   - logika pro příslušné routery
+   - *logika pro příslušné routery*
 
 - **routes**
-   - jednotlivé *.js* soubory volané při routování
+   - *jednotlivé *.js* soubory volané při routování*
 
 - **views**
-   - soubory vkládané do šablon
+   - *soubory vkládané do šablon*
    - **layouts**
       - šablonové soubory
 
