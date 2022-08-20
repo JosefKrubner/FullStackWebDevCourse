@@ -21,19 +21,19 @@
 
 ### Struktura
 
--public
-   -veřejný adresář
+- public
+   - veřejný adresář
 
--models
-   -logika pro příslušné routery
+- models
+   - logika pro příslušné routery
 
--routes
-   -jednotlivé *.js* soubory volané při routování
+- routes
+   - jednotlivé *.js* soubory volané při routování
 
--views
-   -soubory vkládané do šablon
-   -layouts
-      -šablonové soubory
+- views
+   - soubory vkládané do šablon
+   - layouts
+      - šablonové soubory
 
    
 
