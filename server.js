@@ -1,3 +1,4 @@
+// Pokud se nenacházíme v produkčním režimu, tak načte vývojové proměnné
 if(process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
@@ -15,13 +16,14 @@ app.use(expressLayouts)
 app.use(express.static('public')) //nastavení veřejného adresáře
 
 const mongoose = require('mongoose')
+//načtení url databáze z nastavení webu, u local to bude ze souboru .env
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true
 })
 
-const db = mongoose.connection
-db.on('error', error => console.error(error))
-db.once('open', () => console.log('Connected to Mongoose'))
+const db = mongoose.connection //připojení k databázi
+db.on('error', error => console.error(error)) //při chybě ji vypíše
+db.once('open', () => console.log('Connected to Mongoose')) //zpráva při úspěšném připojení
 
 app.use('/', indexRouter) //jako výchozí se použije router index.js ve složce routes
 
