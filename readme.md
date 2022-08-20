@@ -2,7 +2,13 @@
 ## Využívá javascript
 
 ### Příprava projektu
+
 **Konzole:**
 >$ npm init
-V souboru *package.json* změnit výchozí soubor na *server.js* ()
+>$ npm i express ejs express-ejs-layouts
+>$ npm i --save-dev nodemon
+
+V souboru *package.json*:
+
+>Změnit výchozí soubor (*"main"*) na *server.js*
 
