@@ -2,10 +2,10 @@
   "name": "FullStackWebDevCourse",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.js", //Výchozí soubor, který se načte př startu serveru
   "scripts": {
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "start": "node server.js", //pro ostrý běh webu
+    "devStart": "nodemon server.js" //pro vývoj webu, bude se automaticky aktualizovat při změnách v souborech
   },
   "keywords": [],
   "author": "",

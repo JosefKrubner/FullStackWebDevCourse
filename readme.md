@@ -1,14 +1,52 @@
 # Projekt na vytvoření MVC webové aplikace
-## Využívá javascript
+## Využívá javascript a node.js
 
-### Příprava projektu
+### Příprava projektu – pouze při vytváření!
 
-**Konzole:**
 >$ npm init
+
 >$ npm i express ejs express-ejs-layouts
+
 >$ npm i --save-dev nodemon
 
-V souboru *package.json*:
+### Start serveru
 
->Změnit výchozí soubor (*"main"*) na *server.js*
+**Pro ostrý běh serveru**
+
+>$ npm run start 
+
+**Pro vývoj**
+
+>$ npm run devStart
+
+### Struktura
+
+-public
+
+   veřejný adresář
+
+-models
+
+   logika pro příslušné routery
+
+-routes
+
+   jednotlivé *.js* soubory volané při routování
+
+-views
+
+   soubory vkládané do šablon
+
+   -layouts
+
+      šablonové soubory
+
+   
+
+
+
+
+
+
+
 
